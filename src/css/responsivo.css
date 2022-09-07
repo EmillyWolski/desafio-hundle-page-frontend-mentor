@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1440px) {
+    .ilustracao img {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .area-de-ilustracao-e-texto{
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .redes-sociais {
+      text-align: center;
+      margin-top: 50px;
+    }
+  
+    .texto-apresentacao h1 {
+      line-height: 1.5;
+      font-size: 26px;
+    }
+  
+    .texto-apresentacao a {
+      padding: 10px 70px;
+    }
+  }
