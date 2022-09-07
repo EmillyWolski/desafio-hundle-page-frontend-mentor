@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page 
 
-![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
+<img src="./src/imagens/hundle-page.gif" alt="Gif do layout" widht="420px" height="320px">
 
 ## Desafio ⚔
 
