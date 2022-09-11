@@ -18,7 +18,7 @@ body {
   height: 100vh;
 }
 
-.sessao-principal {
+.container .sessao-principal {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -28,18 +28,18 @@ body {
   margin: 0 2rem;
 }
 
-.logo a img {
+.container .sessao-principal .logo a img {
   width: 170px;
   padding-bottom: 20px;
 }
 
-.area-de-ilustracao-e-texto {
+.container .sessao-principal .area-de-ilustracao-e-texto {
   display: flex;
   align-items: center;
   gap: 40px;
 }
 
-.texto-apresentacao h1 {
+.container .sessao-principal .area-de-ilustracao-e-texto .texto-apresentacao h1 {
   color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 36px;
@@ -47,13 +47,13 @@ body {
   margin-bottom: 20px;
 }
 
-.texto-apresentacao p {
+.container .sessao-principal .area-de-ilustracao-e-texto .texto-apresentacao p {
   color: #fff;
   line-height: 1.8;
   margin-bottom: 30px;
 }
 
-.texto-apresentacao a {
+.container .sessao-principal .area-de-ilustracao-e-texto .texto-apresentacao a {
   display: inline-block;
   background: #fff;
   padding: 13px 50px;
@@ -63,32 +63,31 @@ body {
   transition: all 0.3s ease;
 }
 
-.texto-apresentacao a:hover {
+.container .sessao-principal .area-de-ilustracao-e-texto .texto-apresentacao a:hover {
   background-color: hsl(300, 69%, 71%);
   color: white;
 }
 
-.redes-sociais {
+.container .sessao-principal .redes-sociais {
   text-align: right;
 }
 
-.redes-sociais a i {
+.container .sessao-principal .redes-sociais a i {
   color: #fff;
   position: relative;
   font-size: 18px;
-
   transition: all 0.3s ease;
 }
 
-.redes-sociais a:not(:first-child) {
+.container .sessao-principal .redes-sociais a:not(:first-child) {
   margin-left: 2rem;
 }
 
-.redes-sociais a:nth-child(2) {
+.container .sessao-principal .redes-sociais a:nth-child(2) {
   margin-left: 2.4rem;
 }
 
-.redes-sociais a i::after {
+.container .sessao-principal .redes-sociais a i::after {
   content: "";
   position: absolute;
   height: 40px;
@@ -100,11 +99,11 @@ body {
   transition: all 0.3s ease;
 }
 
-.redes-sociais a:hover i {
+.container .sessao-principal .redes-sociais a:hover i {
   color: hsl(300, 69%, 71%);
 }
 
-.redes-sociais a i:hover::after {
+.container .sessao-principal .redes-sociais a i:hover::after {
   border-color: hsl(300, 69%, 71%);
 }
 
